@@ -26,7 +26,7 @@ const GetBtn = props => {
                 onClick = { handleButtonClick } 
                 tabIndex="0" 
                 disabled = { buttonDisabled }
-                style={{backgroundColor:"rgba(95, 158, 160, 0.65)", color: "white" }}>
+                style={{backgroundColor:"rgba(95, 158, 160, 0.65)", color: "white", minWidth:"20rem" }}>
             {buttonMessage}
         </Button>
     );

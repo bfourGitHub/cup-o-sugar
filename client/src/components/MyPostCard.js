@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import API from '../utils/api';
 import { Image } from 'cloudinary-react';
+import { CardImg } from 'react-bootstrap';
 
 
 function MyPostCard({ myPosts, setMyPosts}) {
@@ -31,25 +32,23 @@ function MyPostCard({ myPosts, setMyPosts}) {
 
         myPosts.map((myPost) => (
 
-            <Card className="card landingCard" key={myPost._id} style={{ fontFamily: "'Montserrat', sans-serif", margin: "1rem", backgroundColor:"rgba(95, 158, 160, 0.10)" }} >
-                {/* <Container> */}
+            <Card className="card landingCard" key={myPost._id} style={{ fontFamily: "'Montserrat', sans-serif", margin: "1rem", backgroundColor:"rgba(95, 158, 160, 0.10)", minWidth:"22rem"}} >
+                <Container>
                 <Card.Body style={{ display: "flex", justifyContent: "center" }} >
-                    <Image variant="top" cloudName={cloudName} publicId={myPost.cloudinary_id} crop="scale" style={{ maxHeight: "13rem" }} />
+                    <Image  radius="20" cloudName={cloudName} publicId={myPost.cloudinary_id} crop="fill" style={{maxWidth: "20rem" }} />
                 </Card.Body>
-                {/* </Container> */}
+                
 
-                <Card.Body>
+                <Card.Body style={{maxWidth:"20rem"}} >
                     <Card.Title>{myPost.name}</Card.Title>
-                    <Card.Text>{myPost.description}</Card.Text>
+                    <Card.Text style={{minWidth: "20rem" }} >{myPost.description}</Card.Text>
                     <Card.Text>Status: {myPost.status}</Card.Text>
 
-                    <Container className="postCardFooter" style={{display:"flex", justifyContent:"flex-end"}}>
-                        {/* <Card.Img className="postOwnerPhoto" src={logo} /> */}
-                        {/* <Card.Text>{myPost.owner}</Card.Text> */}
-                        {/* display claimed or unclaimed(open or closed status) */}
-                        <Button className="delete-btn" tabIndex="0" value={myPost._id} variant="outline-danger" onClick={deleteMyPost} >Delete</Button>
-                    </Container>
+                    <div className="postCardFooter" >                        
+                    <Button className="delete-btn" tabIndex="0" value={myPost._id} variant="outline-danger" onClick={deleteMyPost} style={{minWidth: "20rem" }}>Delete</Button>
+                    </div>
                 </Card.Body>
+                </Container>
             </Card>
         ))
 
