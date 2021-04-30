@@ -33,8 +33,8 @@ Heroku
 ​
 ## Links to the app:
 ​
-[Application link to github](https://github.com/SeattleSal/cup-o-sugar)
-[Application link to Heroku](https://neighborhood-cup-o-sugar.herokuapp.com/)
+[Application link to github](https://github.com/bfourGitHub/cup-o-sugar)
+[Application link to Heroku](https://hyperlocal-cup-of-sugar.herokuapp.com/)
 ​
 ​
 
@@ -48,13 +48,5 @@ email:sally.perez@gmail.com
 Bryan Moreno:
 GitHub:bfourGitHub
 email:bfourbryan@gmail.com
-
-Lauren Plenger:
-GitHub:Laurenb08
-email:laurenb08@gmail.com
-
-Stanislava medigovik:
-GitHub: smedigo
-email: smedigo@gmail.com
 ​
 
