@@ -35,7 +35,7 @@ function MyPostCard({ myPosts, setMyPosts}) {
             <Card className="card landingCard" key={myPost._id} style={{ fontFamily: "'Montserrat', sans-serif", margin: "1rem", backgroundColor:"rgba(95, 158, 160, 0.10)", minWidth:"22rem"}} >
                 <Container>
                 <Card.Body style={{ display: "flex", justifyContent: "center" }} >
-                    <Image  radius="20" cloudName={cloudName} publicId={myPost.cloudinary_id} crop="fill" style={{maxWidth: "20rem" }} />
+                    <Image  radius="20" cloudName={cloudName} publicId={myPost.cloudinary_id} crop="fill" style={{maxWidth: "20rem", minWidth:"20rem" }} />
                 </Card.Body>
                 
 
