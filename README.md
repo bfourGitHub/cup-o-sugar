@@ -33,8 +33,8 @@ Heroku
 ​
 ## Links to the app:
 ​
-[Application link to github](https://github.com/bfourGitHub/cup-o-sugar)
-[Application link to Heroku](https://hyperlocal-cup-of-sugar.herokuapp.com/)
+[Github](https://github.com/bfourGitHub/cup-o-sugar)
+[Deployed Link](https://hyperlocal-cup-of-sugar.herokuapp.com/)
 ​
 ​
 
@@ -42,7 +42,7 @@ Heroku
 ## Credits/Collaborations/Questions:
 
 Sally Perez:
-GitHub:SeattleSal
+[GitHub](https://github.com/SeattleSal)
 email:sally.perez@gmail.com
 
 Bryan Moreno:
