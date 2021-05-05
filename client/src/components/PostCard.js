@@ -1,7 +1,7 @@
 import React from "react";
 import API from "../utils/api";
 import { Image } from "cloudinary-react";
-import { Card, Container, Button } from "react-bootstrap";
+import { Card, Button } from "react-bootstrap";
 // import GetBtn from "./GetBtn";
 
 function PostCard({ postData, setPostData }) {
@@ -45,19 +45,19 @@ function PostCard({ postData, setPostData }) {
   };
 
   return postData.map((postData) => (
-            <Card className="card landingCard" key={postData._id} style={{ fontFamily: "'Montserrat', sans-serif", margin: "1rem", backgroundColor:"rgba(95, 158, 160, 0.10)", minWidth:"22rem"}} >
-                <Card.Body style={{ display:"flex", justifyContent:"center"}} >
-                    <Image radius="20" cloudName={cloudName} publicId={postData.cloudinary_id} crop="fill" style={{maxWidth: "20rem", minWidth:"20rem" }}  />
-                </Card.Body>
-    
-
-      <Card.Body>
-        <Card.Title>{postData.name}</Card.Title>
-        <Card.Text style={{ minWidth: "20rem" }}>
-          {postData.description}
-        </Card.Text>
-        <div className="postCardFooter">
-          {postData.status === "open" && (
+      
+        <Card className="card landingCard" key={postData._id} style={{ fontFamily: "'Montserrat', sans-serif", margin: "1rem", backgroundColor:"rgba(95, 158, 160, 0.10)", minWidth:"22rem"}} >
+            <Card.Body style={{ display:"flex", justifyContent:"center"}} >
+                <Image radius="20" cloudName={cloudName} publicId={postData.cloudinary_id} crop="fill" style={{maxWidth: "20rem", minWidth:"20rem" }}  />
+            </Card.Body>
+            
+            <Card.Body>
+            <Card.Title>{postData.name}</Card.Title>
+            <Card.Text style={{ minWidth: "20rem" }}>
+                {postData.description}
+            </Card.Text>
+            <div className="postCardFooter">
+            {postData.status === "open" && (
             <Button
               className="get-btn rounded"
               tabIndex="0"
