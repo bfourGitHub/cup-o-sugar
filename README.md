@@ -12,6 +12,8 @@ The users can also create their own posts of free items within their neighborhoo
 
 ⚙️ links to the app
 
+Screenshots
+
 🗣️ Credits/Collaborators
 
 ❓ Questions or 💬 Comments
@@ -38,7 +40,16 @@ Heroku
 [Github](https://github.com/bfourGitHub/cup-o-sugar)
 [Deployed Link](https://hyperlocal-cup-of-sugar.herokuapp.com/)
 ​
-​
+
+​## Screenshots:
+
+Home Page: <br>
+![Home](./assets/homepage.JPG)
+Post a Give: <br>
+![Sign Up](./assets/post.JPG)
+List of Gives: <br>
+![Gives](./assets/gives.JPG)
+
 
 ## Credits/Collaborations/Questions:
 

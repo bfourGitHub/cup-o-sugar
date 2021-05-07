@@ -9,7 +9,6 @@ import LandingLogin from "./pages/LandingLogin";
 import GiveFeed from "./pages/GiveFeed";
 import AddPost from "./pages/AddPost";
 import HowItWorksPage from "./pages/HowItWorksPage";
-// import Guidelines from "./pages/GuidelinesPage";
 import ProfilePage from "./pages/ProfilePage";
 import GuidelinesPage from "./pages/GuidelinesPage";
 
