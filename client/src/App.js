@@ -11,6 +11,7 @@ import AddPost from "./pages/AddPost";
 import HowItWorksPage from "./pages/HowItWorksPage";
 import ProfilePage from "./pages/ProfilePage";
 import GuidelinesPage from "./pages/GuidelinesPage";
+import ChatPage from "./pages/ChatPage";
 
 import { BrowserRouter as Router, Route, Switch  } from "react-router-dom";
 import { useAuthTokenStore } from "./utils/auth";
@@ -42,6 +43,7 @@ function App() {
               <Route exact strict path="/guidelines" component={GuidelinesPage}></Route>
               <Route exact strict path="/profile" component={ProfilePage}></Route>
               <Route exact strict path="/howitworks" component={HowItWorksPage}></Route>
+              <Route exact strict paqth="/chat" component={ChatPage}></Route>
               <Route exact path="*" component={LandingLogin}></Route>
             </Switch>}
     </Router>
