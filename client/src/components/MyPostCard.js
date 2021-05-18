@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import API from '../utils/api';
 import { Image } from 'cloudinary-react';
-import { CardImg } from 'react-bootstrap';
+// import { CardImg } from 'react-bootstrap';
 
 
 function MyPostCard({ myPosts, setMyPosts}) {

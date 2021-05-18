@@ -152,7 +152,24 @@ function LoginRegDrop() {
               <Form.Group controlId="registerNeighborhood">
                 <Form.Label>Select Your Neighorhood</Form.Label>
                 <Form.Control as="select" ref={registerNeighborhoodRef} style={{ fontFamily: "'Montserrat', sans-serif" }}>
-                  <option>Seattle Area</option>
+                 
+                  <option>Select A Zipcode</option>
+                  <option>98121</option>
+                  <option>98101</option>
+                  <option>98102</option>
+                  <option>98104</option>
+                  <option>98106</option>
+                  <option>98109</option>
+                  <option>98112</option>
+                  <option>98116</option>
+                  <option>98119</option>
+                  <option>98122</option>
+                  <option>98126</option>
+                  <option>98134</option>
+                  <option>98136</option>
+                  <option>98144</option>
+                  <option>98154</option>
+                  <option>98199</option>
                 </Form.Control>
                 <Form.Label style={{ color: "rgba(95, 158, 160)", fontFamily: "'Montserrat', sans-serif", marginTop: "0.6rem" }} >More Locations Coming Soon...</Form.Label>
               </Form.Group>
