@@ -43,7 +43,7 @@ function App() {
               <Route exact strict path="/guidelines" component={GuidelinesPage}></Route>
               <Route exact strict path="/profile" component={ProfilePage}></Route>
               <Route exact strict path="/howitworks" component={HowItWorksPage}></Route>
-              <Route exact strict paqth="/chat" component={ChatPage}></Route>
+              <Route exact strict path="/chat" component={ChatPage}></Route>
               <Route exact path="*" component={LandingLogin}></Route>
             </Switch>}
     </Router>
